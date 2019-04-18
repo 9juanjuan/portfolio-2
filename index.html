@@ -9,6 +9,7 @@
 		<title>Antonio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/fontawesome.css">
 		<link rel="stylesheet" href="assets/css/all.css" />
@@ -62,57 +63,64 @@
 								</h2>
 							</header>
 			
-							<ul class="icons row-center">
-								<li><span class="icon"><img src="/images/skillsicons/html5blue.png"></span></li>
-								<li><span class="icon"><img src="/images/skillsicons/html55.png"></span></li>
-								<li><span class="icon"><img src="/images/skillsicons/css3.png"></span></li>
-								<li><span class="icon"><img src="/images/skillsicons/icons8-html-5-50.png"></span></li>
-								
-								
+							<ul style="flex-direction: row" class="major icons">
+								<li><span style="font-size: 3em; color: white;"><i class="fab fa-html5"></i></span>
+								<p>HTML</p></li>
+								<li><span style="font-size: 3em; color: white;"><i class="fab fa-css3-alt"></i></span>
+								<p>CSS</p></li>		
+								<li><span style="font-size: 3em; color: white;"><i class="fab fa-python"></i></span>
+								<p>Python</p></li>
+								<li><span style="font-size: 3em; color: white;"><i class="fab fa-js-square"></i></span>
+								<p>Javascript</p></li>	
 							</ul>
-							<ul class="icons row-center">
-								<li><span class="icon"><img src="/images/skillsicons/icons8-html-5-50.png"></span></li>
-								<li><span class="icon"><img src="/images/skillsicons/icons8-html-5-50.png"></span></li>
-								<li><span class="icon"><img src="/images/skillsicons/icons8-html-5-50.png"></span></li>
-								<li><span class="icon"><img src="/images/skillsicons/icons8-html-5-50.png"></span></li>
+							<ul style="flex-direction: row" class="major icons">
+									<li><span style="font-size: 3em; color: white;"><i class="fab fa-node-js"></i></span>
+										<p>NodeJS</p></li>	
+									<li><span style="font-size: 3em; color: white;"><i class="fab fa-react"></i></span>
+									<p>React/Redux</p></li>
+									<li><span style="font-size: 3em; color: white;"><i class="fab fa-evernote"></i></span>
+									<p>PostgresQL</p></li>	
+									<li><span style="font-size: 3em; color: white;"><i class="fab fa-aws"></i></span>
+									<p>AWS</p></li>
 							</ul>
 						</div>
 					</section>
 
 				<!-- Two -->
 					<section id="two" class="wrapper alt style2">
+									<header style="text-align:center; padding-top:30px;" class="major">
+										<h2>Portfolio
+										</h2>
+										<p>Videos link to GitHub Repo</p>
+									</header>
 						<section class="spotlight">
-							<div class="image"><img src="images/catch-the-monster.gif" alt="" /></div><div class="content">
+							<div class="image"><a href="https://github.com/9juanjuan/Catch-the-Monster"><img src="images/catch-the-monster.gif" alt="" /></a></div><div class="content">
 								<h2>Catch the Monster Pygame<br />
 							</h2>
 								<p>Catch the Monster is a Python program designed using the Pygame library. This was our first introduction
 									to object-oriented-programming using classes, constructors and object properties.
 								</p>
-								<ul class=""><span class="icon fa-gamepad major style3">
+								<ul class=""><span style="font-size: 3em; color: white;"><i class="fas fa-gamepad"></i>
 									</span></ul>
 							</div>
 						</section>
 						<section class="spotlight">
-							<div class="image"><img src="images/nutrac.gif" alt="" /></div><div class="content">
+							<div class="image"><a href="https://github.com/9juanjuan/Nu-Trac-front-end-project"><img src="images/nutrac.gif" alt="" /></a></div><div class="content">
 								<h2>NuTrac Front End Project<br />
 								</h2>
 								<p>NuTrac was our first front end group project designed entirely with CSS, HTML, and vanilla JS. We utilized API calls and promises to retrieve data that we found to be most helpful to a user.</p>
-								<ul class="">
-									<img src="/images/JS.png">
-									<img src="/images/css.png">
-								</ul>
+								<ul class=""><span style="font-size: 3em; color: white;"><i class="fas fa-palette"></i>
+								</span></ul>
 						
 							</div>
 						</section>
 						<section class="spotlight">
-							<div class="image"><img src="images/pawpii3.gif" alt="" /></div><div class="content">
+							<div class="image"><a href="https://github.com/9juanjuan/PawPii-backend-project"><img src="images/pawpii3.gif" alt="" /></a></div><div class="content">
 								<h2>PawPii Back End Project<br />
 								</h2>
-								<p>Pawpii was our second group project focused on using a relational database (PostgresQL) to display relevant information to the user through the usage of proper routing techniques and HTML requests. We achieved this mainly via NodeJS and ExpressJS.</p>
-								<ul class="">
-								<img src="/images/sql.png">
-							<img src="/images/postgres.png">
-							<img src="/images/rest.png"></ul>
+								<p>Pawpii was our second group project focused on using a relational database (PostgresQL) to display relevant information to the user through the usage of proper routing techniques and HTML requests. We achieved this by creating a RESTful API with via NodeJS and ExpressJS.</p>
+								<ul class=""><span style="font-size: 3em; color: white;"><i class="fas fa-database"></i>
+								</span></ul>
 
 							</div>
 						</section>
@@ -128,7 +136,7 @@
 							<ul class="icon fa-laptop">
 									<h3>Digital Crafts
 									</h3>
-									<p>After trying out a couple of Udemy courses on game programming, I soon realized that self-study in a topic as intensive as programming would require more extreme measures.</p>
+									<p>After trying out a couple of Udemy courses on game programming, I soon realized that self-study in a topic as intensive as programming would require more extreme measures aka Digital Crafts. Digital Crafts is a 16 week long intensive bootcamp geared towards training individuals with little coding experience to become top-tier Web Developers. </p>
 								<!-- <li class="icon fa-book">
 									<h3>Tutor ABC - Senior Education Consultant</h3>
 									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
@@ -159,10 +167,10 @@
 							<header>
 								<h2>Resume</h2>
 								<p>If you or someone you know is searching for someone with my skillset, please take a look at resume and get back to me at your earliest convenience. </p>
+								<p>antonio.jgarcia100@gmail.com</br>713-478-0628</p>
 							</header>
 							<ul class="actions stacked">
-								<li><a href="#" class="button fit primary">Download Resume</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
+								<li><a href="#" class="button fit primary"> Resume</a></li>
 							</ul>
 						</div>
 					</section>
@@ -174,7 +182,7 @@
 							<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
 							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 							<li><a href="#" class="icon fa-code"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+							<li><a href="mailto:antonio.jgarcia100@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 						</ul>
 						<ul class="copyright">
 							<li>&copy; Antonio Garcia</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
