@@ -25,7 +25,7 @@
 		$window.on('load', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
-			}, 100);
+			}, 1);
 		});
 
 	// Mobile?
@@ -46,7 +46,7 @@
 	// Scrolly.
 		$('.scrolly')
 			.scrolly({
-				speed: 850,
+				speed: 1,
 				offset: $header.outerHeight()
 			});
 
